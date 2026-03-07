@@ -7,8 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <div class=" px-3 bg-white w-full shadow-lg" >
-        <img src="./images/xhlogo.png" alt="" srcset="" class="w-20 h-20">
+    <div class="flex flex-row items-center justify-between w-full bg-white px-4">
+        <div class="flex flex-row items-center justify-center gap-4">
+            <img src="./images/xhlogo.png" alt="" srcset="" class="w-20 h-30">
+        </div>
+        <div class="flex flex-row items-center justify-center gap-4">
+            <span class="bg-sky-900 p-2 rounded text-white font-serif shadow-lg hover:cursor-pointer">Home</span>
+            <span class="bg-sky-900 p-2 rounded text-white font-serif shadow-lg hover:cursor-pointer">About</span>
+            <span class="bg-sky-900 p-2 rounded text-white font-serif shadow-lg hover:cursor-pointer">Contact</span>
+            <span class="bg-sky-900 p-2 rounded text-white font-serif shadow-lg hover:cursor-pointer">Route</span>
+            <span class="bg-sky-900 p-2 rounded text-white font-serif shadow-lg hover:cursor-pointer">Book</span>
+        </div>
     </div>
     <div class="w-full">
         <img src="./images/bg-image.png" alt="" class="w-full lg:h-120">
@@ -27,7 +36,7 @@
      <div class=" py-8 text-center mx-4 my-4 rounded-2xl shadow-lg bg-white">
         <img src="./images/mercedes c230.png" alt="" srcset="" class="w-full h-auto mt-8 hover:scale-135 transition-transform">
 
-        <button class="rounded bg-green-600 text-white py-3 px-3 font-bold hover:bg-green-800 cursor-pointer align-right">Book now</button>
+        <!-- <button class="rounded bg-green-600 text-white py-3 px-3 font-bold hover:bg-green-800 cursor-pointer align-right">Book now</button> -->
      </div>
       <div class="py-6 text-center mx-4 my-4 rounded-2xl shadow-lg flex flex-col items-center justify-center">
         <p class="p-4 text-dark-700">
@@ -87,7 +96,7 @@
  </div>
 <!-- Routes section showcasing the different routes available for booking -->
         
-          <div class="w-full py-6 px-4 text-center my-4 rounded-2xl hover:scale-105 transition-transform shadow-lg bg-white">
+          <div class="w-full py-6 px-4 text-center my-4 shadow-lg bg-white overflow-hidden ">
             <h2 class="font-bold">Available Booking Route</h2>
 
                 
@@ -179,5 +188,18 @@
             <div class="mx-2 p-2 grid grid-cols-2 shadow rounded-lg flex flex-col items-center justify-center"> <img src="./images/v5.jpeg" alt="" srcset="" class="border-3 border-cyan-900 object-cover rounded-full"> <p class="center font-serif mx-4"> Xtrahands lane is the best I've traveled with, there services is swift and safe, very friendly and polite drivers and customer services.</p> </div>
          </div>
 
+         <div class="flex flex-col items-center justify-center bg-white shadow-lg w-full py-8 rounded-2xl py-4 px-6 mb-8">
+            <h2 class="center">Suggestion Box</h2>
+            <form action="" class="flex flex-col items-center justify-center w-100 max-w-md mt-4">
+                <input type="text" placeholder="Your Name" class="border border-gray-300 rounded-lg py-2 px-4 mb-4 w-full">
+                <input type="email" placeholder="Your Email" class="border border-gray-300 rounded-lg py-2 px-4 mb-4 w-full">
+                <textarea placeholder="Your Suggestion" class="border border-gray-300 rounded-lg py-2 px-4 mb-4 w-full"></textarea>
+                <button type="submit" class="bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-800 cursor-pointer">Submit</button>
+         </div>
+        
+         <div class="bg-sky-900 shadow-lg w-full py-4 flex items-center justify-center">
+            <p class="text-center text-white font-serif">© 2024 Xtrahands Lane. All rights reserved.</p>
+
+         </div>
 </body>
 </html>
